@@ -1,0 +1,36 @@
+{
+  "name": "chicken.js",
+  "version": "0.0.1",
+  "description": "Chicken.js a node.js wiki",
+  "main": "app.js",
+    "dependencies": {
+        "express": "~4.2.0",
+        "static-favicon": "~1.0.0",
+        "morgan": "~1.0.0",
+        "cookie-parser": "~1.0.1",
+        "body-parser": "~1.0.0",
+        "debug": "~0.7.4",
+        "jade": "~1.3.0"
+  },  "scripts": {
+    "start": "node ./bin/www"
+},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myrddian/chicken.js.git"
+  },
+  "keywords": [
+    "node.js",
+    "wiki",
+    "chicken.js"
+  ],
+  "author": "Enzo Reyes, Matthew Hartmann, Sai Patel, Hari Veligandla",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/myrddian/chicken.js/issues"
+  },
+  "homepage": "https://github.com/myrddian/chicken.js"
+}
