@@ -1,4 +1,4 @@
-![Chicken.js](img/chickenjs.png)
+![chickiwiki](img/chickenjs.png)
 ==========
 
 A Wiki written in node.js
