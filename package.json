@@ -3,21 +3,31 @@
   "version": "0.0.1",
   "description": "chickiwiki a node.js wiki",
   "main": "app.js",
-    "dependencies": {
-        "express": "~4.2.0",
-        "static-favicon": "~1.0.0",
-        "morgan": "~1.0.0",
-        "cookie-parser": "~1.0.1",
-        "body-parser": "~1.0.0",
-        "debug": "~0.7.4",
-        "jade": "~1.3.0"
-  },  "scripts": {
-    "start": "node ./bin/www"
-},
-  "devDependencies": {},
+  "dependencies": {
+    "body-parser": "^1.0.2",
+    "cookie-parser": "^1.0.1",
+    "debug": "~0.7.4",
+    "express": "~4.2.0",
+    "express-param": "^0.4.0",
+    "express-session": "^1.8.2",
+    "express-sessions": "^1.0.5",
+    "helmet": "^0.4.1",
+    "jade": "~1.3.0",
+    "less-middleware": "^1.0.4",
+    "morgan": "~1.0.0",
+    "node-uuid": "^1.4.1",
+    "passport": "^0.2.1",
+    "passport-local": "^1.0.0",
+    "pg": "^3.5.0",
+    "q": "^1.0.1",
+    "static-favicon": "~1.0.0",
+    "validator": "^3.20.0",
+    "winston": "^0.8.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/myrddian/chickiwiki.git"
@@ -25,7 +35,7 @@
   "keywords": [
     "node.js",
     "wiki",
-    "chicken.js"
+    "chickiwiki"
   ],
   "author": "Enzo Reyes, Matthew Hartmann, Sai Patel, Hari Veligandla",
   "license": "GPLv3",
